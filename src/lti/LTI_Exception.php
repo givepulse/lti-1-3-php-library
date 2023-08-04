@@ -1,7 +1,10 @@
 <?php
+
 namespace IMSGlobal\LTI;
 
-class LTI_Exception extends \Exception {
+class LTI_Exception extends \Exception
+{
 
 }
+
 ?>
