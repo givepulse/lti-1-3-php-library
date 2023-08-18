@@ -78,6 +78,11 @@ class LTI_Message_Launch
         return $this->jwt['body'];
     }
 
+    public function get_registration()
+    {
+        return $this->registration;
+    }
+
     private function validate_registration()
     {
         // Find registration.

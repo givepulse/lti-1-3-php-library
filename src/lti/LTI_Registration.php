@@ -13,6 +13,7 @@ class LTI_Registration
     private $auth_server;
     private $tool_private_key;
     private $kid;
+    private $id;
 
     public static function new()
     {
@@ -107,6 +108,15 @@ class LTI_Registration
         return $this;
     }
 
+    public function get_id()
+    {
+        return $this->id;
+    }
+
+    public function set_id($id)
+    {
+        $this->id = $id;
+    }
 }
 
 ?>
