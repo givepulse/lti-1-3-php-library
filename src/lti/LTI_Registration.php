@@ -116,6 +116,7 @@ class LTI_Registration
     public function set_id($id)
     {
         $this->id = $id;
+        return $this;
     }
 }
 
